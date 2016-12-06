@@ -1,0 +1,34 @@
+{
+  "name": "ambrosiatc_v1",
+  "version": "1.0.0",
+  "description": "This is the init file for ambrosiaTC V1",
+  "main": "index.php",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-htmlclean": "^2.7.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ambrosiagit/ambrosiaTC_v1.git"
+  },
+  "keywords": [
+    "wellness",
+    "update",
+    "v1"
+  ],
+  "author": "Mike Giammattei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ambrosiagit/ambrosiaTC_v1/issues"
+  },
+  "homepage": "https://github.com/ambrosiagit/ambrosiaTC_v1#readme"
+}
