@@ -2,7 +2,8 @@
 /**
  * Template Name:  AMB Wellness
  *
- * @author         Mike Giammatei
+ * Last updated by: Mike Giammatei
+ * Updated on: 12/6/2016
  */
 /* Page Boolean */
 $page_css = "wellness";
