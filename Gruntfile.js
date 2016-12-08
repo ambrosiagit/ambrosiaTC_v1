@@ -27,7 +27,7 @@ module.exports = function(grunt){
         uglify: {
             my_target: {
                 files: {
-                    'public/js/main.min.js': ['public/js/inc/*.js','public/js/inc/pages/home-iframe.js','public/js/general.js']
+                    'public/js/inc/pages/general-inside-learning-V_1.js': ['public/js/inc/pages/unmin/general-inside-learning-V_1.js']
                 }
             }
         },
@@ -45,15 +45,8 @@ module.exports = function(grunt){
                 livereload: true,
             },
             css: {
-                files: ['public/sass/pages/*.scss'],
+                files: ['public/sass/pages/*.scss','public/theme/un-min/*.php','public/js/inc/pages/unmin/general-inside-learning-V_1.js'],
                 tasks: ['sass','htmlclean','uglify','cssmin'],
-            },
-            htmlclean: {
-                files: ['public/theme/un-min/*.php'],
-                tasks: ['htmlclean'],
-                options: {
-
-                }
             }
 
         }
